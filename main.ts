@@ -1,4 +1,4 @@
-input.onGesture(Gesture.Shake, function () {
+input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 4; index++) {
         music.playTone(392, music.beat(BeatFraction.Quarter))
         music.rest(music.beat(BeatFraction.Eighth))
